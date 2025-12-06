@@ -1,3 +1,5 @@
+import '../css/styles.css';
+
 // 主题切换功能
 document.addEventListener('DOMContentLoaded', function() {
   const themeSwitcher = document.getElementById('theme-switcher');
@@ -38,4 +40,4 @@ function showAlert(message, type) {
 }
 
 // 导出函数供其他模块使用（如果需要）
-// export { showAlert };
+export { showAlert };
