@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-command-name": "off"
+      }
+    ],
+    "button-type": "off"
+  }
+}
